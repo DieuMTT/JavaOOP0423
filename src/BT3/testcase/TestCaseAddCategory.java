@@ -12,7 +12,7 @@ public class TestCaseAddCategory extends TestCaseLogin {
     }
 
     public static void main(String[] args) {
-        TestCaseAddCategory tc1 = new TestCaseAddCategory("https://cms.anhtester.com/login", true, true);
+        TestCaseAddCategory tc2 = new TestCaseAddCategory("https://cms.anhtester.com/login", true, true);
         createDriver();
 
         AddCategory();
